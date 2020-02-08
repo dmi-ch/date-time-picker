@@ -15,3 +15,9 @@ export { OWL_DATE_TIME_FORMATS, OwlDateTimeFormats } from './lib/date-time/adapt
 export { OwlDateTimeInlineComponent } from './lib/date-time/date-time-inline.component';
 export { OwlDateTimeInputDirective } from './lib/date-time/date-time-picker-input.directive';
 export { OwlDateTimeComponent } from './lib/date-time/date-time-picker.component';
+export { OwlCalendarComponent } from './lib/date-time/calendar.component';
+export { OwlTimerComponent } from './lib/date-time/timer.component';
+export { OwlDateTimeTriggerDirective } from './lib/date-time/date-time-picker-trigger.directive';
+export { OwlMultiYearViewComponent } from './lib/date-time/calendar-multi-year-view.component';
+export { OwlYearViewComponent } from './lib/date-time/calendar-year-view.component';
+export { OwlMonthViewComponent } from './lib/date-time/calendar-month-view.component';

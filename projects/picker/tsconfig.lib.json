@@ -11,6 +11,11 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
+    "paths": {
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ]
+    },
     "types": [],
     "lib": [
       "dom",
@@ -18,7 +23,6 @@
     ]
   },
   "angularCompilerOptions": {
-    "annotateForClosureCompiler": true,
     "skipTemplateCodegen": true,
     "strictMetadataEmit": true,
     "fullTemplateTypeCheck": true,
